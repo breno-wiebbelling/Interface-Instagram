@@ -1,0 +1,110 @@
+
+.geral{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 60px 30px 30px 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color:rgb(243, 243, 243);
+    color: rgb(54, 53, 53);
+
+}
+
+.esquerda, .direita{
+    height: 700px;
+    width: 400px;
+
+}
+
+
+.esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.celular{
+    height: 700px;
+
+}
+
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.primeiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 360px;
+    height: 280px;
+    border: lightgray 1px solid;
+
+}
+
+
+.logo{
+    width: 50%;
+    padding: 0px 0px 10px 0px;
+
+}
+
+
+.user{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+
+.botao{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px 5px 5px 5px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+.segundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 360px;
+    height: 100px;
+    border: lightgray 1px solid;
+
+}
+
+.terceiro {
+    background-color: rgb(243, 243, 243);
+    width: 360px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link {
+    color: blue;
+}
+
+
+.dividir-aplicativo img{
+    padding: 0px 11px 0px 11px;
+    width: 150px;
+}
